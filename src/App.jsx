@@ -1,6 +1,5 @@
 import './App.css'
-import { Movielist } from './components/movielist'
-import { Popups } from './components/Popups'
+import { Movielist } from './components/Movielist'
 
 
 function App() {
