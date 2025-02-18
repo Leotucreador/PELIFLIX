@@ -1,5 +1,5 @@
 import './App.css'
-import { Movielist } from './components/Movielist'
+import { Movielist } from './components/movielist'
 
 
 function App() {
@@ -11,5 +11,5 @@ function App() {
     </>
   )
 }
+export default App;
 
-export default App

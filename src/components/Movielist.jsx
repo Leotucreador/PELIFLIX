@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Popups } from './Popups';
+import { Carrusel } from './Carrusel';
 
 export const Movielist = () => {
     const [movies, setMovies] = useState([]);
@@ -85,6 +86,7 @@ export const Movielist = () => {
 
     return (
         <section className="bg-white">
+            <Carrusel movie={movies} />
             <div className="mx-auto w-full max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                 <h2 className="text-5xl text-center font-bold tracking-tight text-gray-900">Películas</h2>
                 <nav>
